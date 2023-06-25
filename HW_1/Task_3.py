@@ -15,9 +15,9 @@ if num == 1:
 if num == 2:
     print("Число 2 - простое")
 
-for i in range(2, num):
+for i in range(2, int(num ** 0.5 + 1)):
     if num % i == 0:
         print("Число ", num, " - составное")
         break
-    if i == num - 1:
-        print("Число ", num, " - простое")
+else:
+    print("Число ", num, " - простое")
