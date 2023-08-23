@@ -1,0 +1,2 @@
+INFO:__main__:File(name='Task_1', extension='this is a directory', directory='HW_1', directory_parent='HW')
+INFO:__main__:File(name='Task_1', extension='py', directory='HW_1', directory_parent='HW')
